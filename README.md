@@ -39,7 +39,7 @@ virtualenv env
 python -m virtualenv env
 ```
 
-4. Next step will be activating the newly created virtual environment, by typing the next command into Terminal: 
+3. Next step will be activating the newly created virtual environment, by typing the next command into Terminal: 
 
 ### Mac
 ```bash
@@ -50,23 +50,23 @@ source env/bin/activate
 .\env\Scripts\activate
 ```
 
-3. Once all the previous steps were completed, install the 'requirements.txt' in the main directory to make sure all required packages for this code exist: 
+4. Once all the previous steps were completed, install the 'requirements.txt' in the main directory to make sure all required packages for this code exist: 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run MongoDB Compass with this link: 
+5. Run MongoDB Compass with this link: 
 ```
 mongodb://localhost:27017
 ```
 
-5. Activate the MongoDB Community Server by entering the next command into your Terminal / PowerShell: 
+6. Activate the MongoDB Community Server by entering the next command into your Terminal / PowerShell: 
 ```bash
 (env) mongosh
 ```
 
 
-6. Run the application using the play icon in your VSCode / PyCharm environment, or by entering the command below:
+7. Run the application using the play icon in your VSCode / PyCharm environment, or by entering the command below:
 
 ### Mac
 ```bash
@@ -77,7 +77,7 @@ mongodb://localhost:27017
 (env) $ py app.py
 ```
 
-7. Once code is active, go to your desired browser and type "http://127.0.0.1:5000". 
+8. Once code is active, go to your desired browser and type "http://127.0.0.1:5000". 
 
 # Existing Features
 
