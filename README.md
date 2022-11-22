@@ -60,11 +60,10 @@ pip install -r requirements.txt
 mongodb://localhost:27017
 ```
 
-6. Activate the MongoDB Community Server by entering the next command into your Terminal / PowerShell: 
+6. Activate the MongoDB Community Server by entering the next command into a new Terminal / PowerShell window: 
 ```bash
 (env) mongosh
 ```
-
 
 7. Run the application using the play icon in your VSCode / PyCharm environment, or by entering the command below:
 
@@ -79,6 +78,11 @@ mongodb://localhost:27017
 
 8. Once code is active, go to your desired browser and type "http://127.0.0.1:5000". 
 
+9. In order to check if the task has been added to your database, on your mongosh shell Terminal window, enter the following commands: 
+```bash
+$ test> use flask_db
+$ flask_db> db.todos.find()
+```
 # Existing Features
 
 - Add a To-Do (mark importance)
